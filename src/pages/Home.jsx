@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <>
-      <Banner onAddItem={handleAddItem} />
+      {/* <Banner onAddItem={handleAddItem} /> */}
       <ProductTabs/>
     </>
   );
