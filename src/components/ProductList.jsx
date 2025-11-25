@@ -155,10 +155,10 @@ const ProductList = () => {
                       {product.stock}
                     </td>
                     <td className="px-6 py-4">
-                      ${product.whole_price.toFixed(2)}
+                      PKR{product.whole_price.toFixed(2)}
                     </td>
                     <td className="px-6 py-4">
-                      ${product.sale_price.toFixed(2)}
+                      PKR{product.sale_price.toFixed(2)}
                     </td>
                     <td className="px-6 py-4">{product.product_category}</td>
                     <td className="px-6 py-4 space-x-2">
