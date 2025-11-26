@@ -18,7 +18,7 @@ const ProductList = () => {
       const { data, error } = await supabase
         .from("Products")
         .select("*")
-        .order("id", { ascending: true });
+        .order("created_at", { ascending: false });
       if (error) throw error;
       setProducts(data);
     } catch (error) {
