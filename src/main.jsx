@@ -25,8 +25,8 @@ createRoot(document.getElementById("root")).render(
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<App />}>
         <Route index element={<Dasboard />} />
-        <Route path="products" element={<ProductList />} />
-        <Route path="reports" element={<SalesReport />} />
+        <Route path="/products" element={<ProductList />} />
+        <Route path="/reports" element={<SalesReport />} />
       </Route>
     </Routes>
   </BrowserRouter>
